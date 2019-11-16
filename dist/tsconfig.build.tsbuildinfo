@@ -2118,8 +2118,8 @@
         "signature": "427a1a08281944ba8d35ea97175a65556738768b8e58942f078af33397175f26"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/repositories/user.repository.ts": {
-        "version": "134010cfc02f49f3147f9449761a31d195f76a4df967c50caeff6978196940a8",
-        "signature": "e2091e3b14857b8863d208628014e62e77b588a2312ac20919a843d0fdbea19c"
+        "version": "f9b012be23ea6939fd6070bf578db88acfbb7656aef5b190583c64ebf82ae911",
+        "signature": "92022acfcbd1f3b5887e4e1b04ae0ae24ac73beb4dbba8e7db4f71fa6c855805"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/validation/validationerror.d.ts": {
         "version": "8b5ad058f8dab857050fdbb092b9f1267d22641f0f746cd8a7abee85b48bb83a",
@@ -2194,19 +2194,47 @@
         "signature": "70aecfd981af29d74ba7ab6667b9cc2a53459d8eb099c139fd2aa54c3059c71d"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts": {
-        "version": "7d47f5584779c1c33745e50f948427032cfee2295d9cc2da9b58c58d2a6aa1d0",
-        "signature": "f5eb889c268740ae4ca18dd62ef119d4084a644f519f42c7f0dc41eee0d45e5d"
+        "version": "c7460ad8e976cbdb466c1b79b3b6b40947b59264da54c1ebaf05ba91c5377b8a",
+        "signature": "d0f8ac85327ef7f06262735049d54be5b5843c91cfcb160169529c7f73928143"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts": {
+        "version": "14d6e6e4541e7723b1e7b858ab90ed28e733bdc2e86eb603cf653cffdf20a263",
+        "signature": "5074f89c724812cfbe5e346301ed454fd7699017a3719be0648d0c78f2e2dba9"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts": {
+        "version": "f4489708f3bc6d3834421cac4e3cd2998e48c41f7d3faeb92cfa7aad1b24e74e",
+        "signature": "bc806f2d2b0c3d8417c39370fea744a617c8799a140b64a20ce36fc3f9860de7"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts": {
+        "version": "46992fdf65efaac0a392700d2d72638d7ff85ee4c02bc56d0e1fa054616ee5f5",
+        "signature": "bbd88dd583002628479894f1bcb2b63fcb67ba9a3425b6f60d37e581f87aa5c4"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts": {
+        "version": "afb3a4f5dfd7a59c67df4534a1ad672bf70b88424929541fad76dc6f8d225aee",
+        "signature": "de59795c72948ee9214e38741acd670b41082c78dfa5bd45afc52d9b1dd7d4b4"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts": {
-        "version": "9e8792089eac3b29c7ebec03817d702f5a738ce316d8593ec23b676a38861a36",
-        "signature": "f6ba1f08acc073bd11187981ba4bf774402a1bd549456dd97eb6955aa35f40fa"
+        "version": "0a0dd4e3cfc3f5bcdb97fc3ec278e1c2721099b59c0934e83e02ad1b32f0d1b1",
+        "signature": "8f0d415a47ea612fbc0356ae6bc326ccce31f5d1f93a6c23e7c71b2682b69d9d"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.controller.ts": {
         "version": "d1c2cfa833a9989a6ca1eb9b8dbbf98f9ee3ec11b23a2715e36837c6ae49d8f9",
         "signature": "2c8f4041eba642268cd552777c0380c50d2d6b0f0ae97cdaba1d1585092a5574"
       },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/get-user.decorator.ts": {
+        "version": "a1bccb8e75a538ff0f990aa5c2b9e975c5ab13cd87b51a3378cbfde91d915d25",
+        "signature": "2edbd67ef5c8b5f94d7abaea90ab48657ff66e5277a1409c425ff253daa65751"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.controller.ts": {
+        "version": "977ed6ff4a7a217be656399cc07d1a8d0e963b0a622233f1d1ff5a21c4c52195",
+        "signature": "10d2f8a723f703c73bb49aae995fb87c66d0e1697589c36f2bc2a5e46efe1a1c"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.module.ts": {
+        "version": "4390d08b1bc1afad276150c9bb766cadabeaa019ded5497239d3442e84a70abc",
+        "signature": "60f76fe16bacfab9d808008422d4f2aeb8bbaf122e263c55b20819910875b2a3"
+      },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts": {
-        "version": "3984d62b2b8ba47ec97073a4e71c912b0c6f84cb361306df34082d8538103de5",
+        "version": "fffe2e4bf06a3445e811eeb849707a3ffdc8073e9860d12a1b1dcbfc6d932d8c",
         "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/dotenv/types/index.d.ts": {
@@ -2226,7 +2254,7 @@
         "signature": "e48d1e836452920a823efe3c1f15dbaa531cbb2c536b3d47ad06ed5201a8b847"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/app.module.ts": {
-        "version": "5e0344883a85e2bb915f1725377a1e8df917e54b6a79b4f503258adb77ae8adc",
+        "version": "d37c09ae35fa588d222074b9dede9af3b5bc7082a4c9dd06e42ab1da43820daf",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -5904,12 +5932,41 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/typeorm/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/typeorm/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/index.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/repositories/user.repository.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5920,12 +5977,39 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/get-user.decorator.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.controller.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/get-user.decorator.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.module.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.controller.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.controller.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/index.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/repositories/user.repository.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.module.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5957,6 +6041,7 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/index.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/typeorm.config.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.module.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9608,8 +9693,8 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/typeorm/index.d.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/repositories/user.repository.ts": [
-        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/typeorm/index.d.ts",
-        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts"
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/typeorm/index.d.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/validation/validationerror.d.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
@@ -9716,13 +9801,33 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/typeorm/index.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/typeorm/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts"
+      ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/repositories/user.repository.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.controller.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.controller.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/dotenv/types/index.d.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
@@ -10571,9 +10676,16 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/metadata/constraintmetadata.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/metadata/metadatastorage.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.controller.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/get-user.decorator.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.controller.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.module.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/dotenv/types/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/interfaces/appconfig.interface.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/env.config.ts",
@@ -10624,7 +10736,7 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/json5/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/superagent/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/supertest/index.d.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts"
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts"
     ]
   },
   "version": "3.4.3"

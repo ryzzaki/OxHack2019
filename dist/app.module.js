@@ -12,6 +12,7 @@ const app_service_1 = require("./app.service");
 const auth_module_1 = require("./auth/auth.module");
 const typeorm_1 = require("@nestjs/typeorm");
 const typeOrm_config_1 = require("./config/typeOrm.config");
+const locator_module_1 = require("./locator/locator.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -19,6 +20,7 @@ AppModule = __decorate([
         imports: [
             typeorm_1.TypeOrmModule.forRoot(typeOrm_config_1.typeOrmConfig),
             auth_module_1.AuthModule,
+            locator_module_1.LocatorModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

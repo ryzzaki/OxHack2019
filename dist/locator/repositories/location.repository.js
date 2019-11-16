@@ -15,23 +15,29 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
-const user_entity_1 = require("../entities/user.entity");
-let UserRepository = class UserRepository extends typeorm_1.Repository {
-    registerUser(firstName, lastName, address, email, hashedPass) {
+const location_entity_1 = require("../entities/location.entity");
+let LocationRepository = class LocationRepository extends typeorm_1.Repository {
+    createLocation(latitude, longitude, user) {
         return __awaiter(this, void 0, void 0, function* () {
-            const user = new user_entity_1.User();
-            user.firstName = firstName;
-            user.lastName = lastName;
-            user.address = address;
-            user.email = email;
-            user.password = hashedPass;
-            yield this.save(user);
-            return user;
+            const location = new location_entity_1.Location();
+            location.latitude = latitude;
+            location.longitude = longitude;
+            location.user = user;
+            yield this.save(location);
+        });
+    }
+    updateLocation(latitude, longitude, user) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const location = yield this.findOne({ user });
+            location.latitude = latitude;
+            location.longitude = longitude;
+            delete location.lastUpdated;
+            yield this.update(location.id, location);
         });
     }
 };
-UserRepository = __decorate([
-    typeorm_1.EntityRepository(user_entity_1.User)
-], UserRepository);
-exports.UserRepository = UserRepository;
-//# sourceMappingURL=user.repository.js.map
+LocationRepository = __decorate([
+    typeorm_1.EntityRepository(location_entity_1.Location)
+], LocationRepository);
+exports.LocationRepository = LocationRepository;
+//# sourceMappingURL=location.repository.js.map

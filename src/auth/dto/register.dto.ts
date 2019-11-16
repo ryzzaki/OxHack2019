@@ -19,4 +19,10 @@ export class RegisterDto {
 
   @IsNotEmpty()
   password: string;
+
+  @IsNotEmpty()
+  latitude: number;
+
+  @IsNotEmpty()
+  longitude: number;
 }

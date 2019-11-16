@@ -22,36 +22,30 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
-const user_entity_1 = require("./entities/user.entity");
-const user_repository_1 = require("./repositories/user.repository");
-const bcrypt = require("bcrypt");
-const locator_service_1 = require("../locator/locator.service");
-let AuthService = class AuthService {
-    constructor(userRepository, locatorService) {
-        this.userRepository = userRepository;
-        this.locatorService = locatorService;
+const location_repository_1 = require("./repositories/location.repository");
+const location_entity_1 = require("./entities/location.entity");
+let LocatorService = class LocatorService {
+    constructor(locationRepository) {
+        this.locationRepository = locationRepository;
     }
-    registerUser(registerDto) {
+    updateLocation(locationDto, user) {
         return __awaiter(this, void 0, void 0, function* () {
-            const { firstName, lastName, address, email, password, latitude, longitude } = registerDto;
-            const hashedPass = yield this.hashPassword(password);
-            const user = yield this.userRepository.registerUser(firstName, lastName, address, email, hashedPass);
-            yield this.locatorService.createLocation(latitude, longitude, user);
+            const { latitude, longitude } = locationDto;
+            yield this.locationRepository.updateLocation(latitude, longitude, user);
             return;
         });
     }
-    hashPassword(password) {
+    createLocation(latitude, longitude, user) {
         return __awaiter(this, void 0, void 0, function* () {
-            const salt = yield bcrypt.genSalt();
-            return bcrypt.hash(password, salt);
+            yield this.locationRepository.createLocation(latitude, longitude, user);
+            return;
         });
     }
 };
-AuthService = __decorate([
+LocatorService = __decorate([
     common_1.Injectable(),
-    __param(0, typeorm_1.InjectRepository(user_entity_1.User)),
-    __metadata("design:paramtypes", [user_repository_1.UserRepository,
-        locator_service_1.LocatorService])
-], AuthService);
-exports.AuthService = AuthService;
-//# sourceMappingURL=auth.service.js.map
+    __param(0, typeorm_1.InjectRepository(location_entity_1.Location)),
+    __metadata("design:paramtypes", [location_repository_1.LocationRepository])
+], LocatorService);
+exports.LocatorService = LocatorService;
+//# sourceMappingURL=locator.service.js.map

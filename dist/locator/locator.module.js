@@ -7,28 +7,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-const auth_service_1 = require("./auth.service");
-const auth_controller_1 = require("./auth.controller");
+const locator_service_1 = require("./locator.service");
+const locator_controller_1 = require("./locator.controller");
+const location_repository_1 = require("./repositories/location.repository");
 const typeorm_1 = require("@nestjs/typeorm");
-const user_repository_1 = require("./repositories/user.repository");
-const locator_module_1 = require("../locator/locator.module");
-let AuthModule = class AuthModule {
+let LocatorModule = class LocatorModule {
 };
-AuthModule = __decorate([
+LocatorModule = __decorate([
     common_1.Module({
         imports: [
             typeorm_1.TypeOrmModule.forFeature([
-                user_repository_1.UserRepository,
+                location_repository_1.LocationRepository,
             ]),
-            locator_module_1.LocatorModule,
         ],
-        providers: [
-            auth_service_1.AuthService,
-        ],
-        controllers: [
-            auth_controller_1.AuthController,
-        ],
+        providers: [locator_service_1.LocatorService],
+        controllers: [locator_controller_1.LocatorController],
+        exports: [locator_service_1.LocatorService],
     })
-], AuthModule);
-exports.AuthModule = AuthModule;
-//# sourceMappingURL=auth.module.js.map
+], LocatorModule);
+exports.LocatorModule = LocatorModule;
+//# sourceMappingURL=locator.module.js.map
