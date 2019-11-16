@@ -40,6 +40,12 @@ let AuthService = class AuthService {
             return;
         });
     }
+    loginUser(loginDto) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { email, password } = loginDto;
+            yield this.userRepository.isValidPassword(email, password);
+        });
+    }
     hashPassword(password) {
         return __awaiter(this, void 0, void 0, function* () {
             const salt = yield bcrypt.genSalt();

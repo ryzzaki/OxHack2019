@@ -27,7 +27,9 @@ let NotificatorService = class NotificatorService {
     calculateDistance() {
         return __awaiter(this, void 0, void 0, function* () {
             const userIds = [];
-            const result = yield axios_1.default.post('url.com');
+            const api = 'url.com';
+            const data = 'some data';
+            const result = yield axios_1.default.post(api, data);
             return userIds;
         });
     }

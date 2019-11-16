@@ -16,6 +16,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
 const user_entity_1 = require("../entities/user.entity");
+const common_1 = require("@nestjs/common");
+const bcrypt = require("bcrypt");
 let UserRepository = class UserRepository extends typeorm_1.Repository {
     registerUser(firstName, lastName, address, email, hashedPass) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -27,6 +29,18 @@ let UserRepository = class UserRepository extends typeorm_1.Repository {
             user.password = hashedPass;
             yield this.save(user);
             return user;
+        });
+    }
+    isValidPassword(email, inputPassword) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const identity = yield this.findOne({ where: [{ email }] });
+            if (identity == null) {
+                throw new common_1.NotFoundException(`Email Identity NOT FOUND for User email: ${email}`);
+            }
+            if (!(yield bcrypt.compare(inputPassword, identity.password))) {
+                throw new common_1.UnauthorizedException('BCrypt comparison is false');
+            }
+            return true;
         });
     }
 };
