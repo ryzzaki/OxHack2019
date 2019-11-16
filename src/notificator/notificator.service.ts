@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import axios from 'axios';
 import { LocatorService } from '../locator/locator.service';
 import * as admin from 'firebase-admin';
-import { Location } from '../locator/entities/location.entity';
 import appConfig from '../config/env.config';
 import { OriginDto } from './dto/origin.dto';
 
@@ -13,9 +12,17 @@ export class NotificatorService {
   ) {}
 
   async callHelp(originDto: OriginDto): Promise<void> {
-    // some code
-    const { originLat, originLong } = originDto;
-    await this.calculateDistance(originLat, originLong);
+    const { originLat, originLong, ambulanceEta } = originDto;
+    const etaInSeconds = ambulanceEta * 60;
+    const relativeUsers = await this.calculateDistance(originLong, originLat);
+    const sorted = relativeUsers.sort((a, b) => (a.travelTime > b.travelTime) ? 1 : ((b.travelTime > a.travelTime) ? -1 : 0));
+    for (const person of sorted) {
+      if (person.travelTime > etaInSeconds) {
+        break;
+      } else {
+        await this.sendNotifications();
+      }
+    }
     await this.sendNotifications();
   }
 
@@ -44,30 +51,38 @@ export class NotificatorService {
   });
   }
 
-  private async calculateDistance(originLat: number, originLong: number): Promise<number[]> {
-    // COMPLETE THE CALCULATE ALGO
+  private async calculateDistance(originLat: number, originLong: number): Promise<any> {
     const userIds = [];
-    // this is how you request
+    const listCoordinates = [];
+    const relativeUsers = [];
     const locations = await this.locatorService.getAllLocations();
+    for (const location of locations) {
+      userIds.push(location.userId);
+      listCoordinates.push([location.longitude, location.latitude]);
+    }
     const api = appConfig.serverSettings.azureApi;
-    const data = await this.constructData(23, 32, locations);
+    const data = await this.constructData(originLat, originLong, listCoordinates);
     const result = await axios.post(api, data);
-    console.log(result);
-    return userIds;
+    const matrix = result.data.matrix[0];
+    for (const route of matrix) {
+      let relativeUser = {
+        userId: userIds.shift(),
+        length: route.response.routeSummary.lengthInMeters,
+        travelTime: route.response.routeSummary.travelTimeInSeconds,
+      };
+      relativeUsers.push(relativeUser);
+    }
+    return relativeUsers;
   }
 
-  private async constructData(originLat: number, originLong: number, locations: Location[]): Promise<{ data: any }> {
-    const listCoordinates = [];
-    for (const location of locations) {
-      listCoordinates.push([location.latitude, location.longitude]);
-    }
+  private async constructData(originLat: number, originLong: number, listCoordinates: any): Promise<{ data: any }> {
     const data: any = {
       origins: {
         type: 'MultiPoint',
         coordinates: [
           [
-            originLat,
             originLong,
+            originLat,
           ],
         ],
       },

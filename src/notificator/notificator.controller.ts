@@ -13,10 +13,4 @@ export class NotificatorController {
     this.notificatorService.callHelp(originDto);
     return;
   }
-
-  @Get('/test')
-  test(): Promise<void> {
-    //this.notificatorService.calculateDistance().catch(error => { return; });
-    return;
-  }
 }

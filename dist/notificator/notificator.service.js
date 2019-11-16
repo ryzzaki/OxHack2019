@@ -28,8 +28,18 @@ let NotificatorService = class NotificatorService {
     }
     callHelp(originDto) {
         return __awaiter(this, void 0, void 0, function* () {
-            const { originLat, originLong } = originDto;
-            yield this.calculateDistance(originLat, originLong);
+            const { originLat, originLong, ambulanceEta } = originDto;
+            const etaInSeconds = ambulanceEta * 60;
+            const relativeUsers = yield this.calculateDistance(originLong, originLat);
+            const sorted = relativeUsers.sort((a, b) => (a.travelTime > b.travelTime) ? 1 : ((b.travelTime > a.travelTime) ? -1 : 0));
+            for (const person of sorted) {
+                if (person.travelTime > etaInSeconds) {
+                    break;
+                }
+                else {
+                    yield this.sendNotifications();
+                }
+            }
             yield this.sendNotifications();
         });
     }
@@ -59,27 +69,37 @@ let NotificatorService = class NotificatorService {
     calculateDistance(originLat, originLong) {
         return __awaiter(this, void 0, void 0, function* () {
             const userIds = [];
+            const listCoordinates = [];
+            const relativeUsers = [];
             const locations = yield this.locatorService.getAllLocations();
+            for (const location of locations) {
+                userIds.push(location.userId);
+                listCoordinates.push([location.longitude, location.latitude]);
+            }
             const api = env_config_1.default.serverSettings.azureApi;
-            const data = yield this.constructData(23, 32, locations);
+            const data = yield this.constructData(originLat, originLong, listCoordinates);
             const result = yield axios_1.default.post(api, data);
-            console.log(result);
-            return userIds;
+            const matrix = result.data.matrix[0];
+            for (const route of matrix) {
+                let relativeUser = {
+                    userId: userIds.shift(),
+                    length: route.response.routeSummary.lengthInMeters,
+                    travelTime: route.response.routeSummary.travelTimeInSeconds,
+                };
+                relativeUsers.push(relativeUser);
+            }
+            return relativeUsers;
         });
     }
-    constructData(originLat, originLong, locations) {
+    constructData(originLat, originLong, listCoordinates) {
         return __awaiter(this, void 0, void 0, function* () {
-            const listCoordinates = [];
-            for (const location of locations) {
-                listCoordinates.push([location.latitude, location.longitude]);
-            }
             const data = {
                 origins: {
                     type: 'MultiPoint',
                     coordinates: [
                         [
-                            originLat,
                             originLong,
+                            originLat,
                         ],
                     ],
                 },

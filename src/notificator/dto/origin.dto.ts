@@ -6,4 +6,7 @@ export class OriginDto {
 
   @IsNotEmpty()
   originLong: number;
+
+  @IsNotEmpty()
+  ambulanceEta: number;
 }

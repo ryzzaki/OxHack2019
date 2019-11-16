@@ -5,6 +5,6 @@ export declare class NotificatorService {
     constructor(locatorService: LocatorService);
     callHelp(originDto: OriginDto): Promise<void>;
     private sendNotifications;
-    private calculateDistance;
+    calculateDistance(originLat: number, originLong: number): Promise<any>;
     private constructData;
 }

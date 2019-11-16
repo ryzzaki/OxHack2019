@@ -24,6 +24,7 @@ let NotificatorController = class NotificatorController {
         return;
     }
     test() {
+        this.notificatorService.calculateDistance(42.979641, -81.325058);
         return;
     }
 };
