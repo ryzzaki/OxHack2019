@@ -22,4 +22,8 @@ export class LocatorService {
     await this.locationRepository.createLocation(latitude, longitude, user);
     return;
   }
+
+  async getAllLocations(): Promise<Location[]> {
+    return await this.getAllLocations();
+  }
 }

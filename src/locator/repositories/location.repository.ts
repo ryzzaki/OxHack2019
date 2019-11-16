@@ -19,4 +19,8 @@ export class LocationRepository extends Repository<Location> {
     delete location.lastUpdated;
     await this.update(location.id, location);
   }
+
+  async getAllLocations(): Promise<Location[]> {
+    return await this.find();
+  }
 }
