@@ -12,7 +12,9 @@ export class NotificatorService {
     // COMPLETE THE CALCULATE ALGO
     const userIds = [];
     // this is how you request
-    const result = await axios.post('url.com');
+    const api = 'url.com';
+    const data = 'some data';
+    const result = await axios.post(api, data);
     return userIds;
   }
 }
