@@ -20,17 +20,75 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const axios_1 = require("axios");
 const locator_service_1 = require("../locator/locator.service");
+const admin = require("firebase-admin");
+const env_config_1 = require("../config/env.config");
 let NotificatorService = class NotificatorService {
     constructor(locatorService) {
         this.locatorService = locatorService;
     }
-    calculateDistance() {
+    callHelp(originDto) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { originLat, originLong } = originDto;
+            yield this.calculateDistance(originLat, originLong);
+            yield this.sendNotifications();
+        });
+    }
+    sendNotifications() {
+        return __awaiter(this, void 0, void 0, function* () {
+            admin.initializeApp({
+                credential: admin.credential.applicationDefault(),
+                databaseURL: 'https://<DATABASE_NAME>.firebaseio.com',
+            });
+            const registrationTokens = [
+                'YOUR_REGISTRATION_TOKEN_1',
+                'YOUR_REGISTRATION_TOKEN_N',
+            ];
+            const message = {
+                data: {
+                    score: '850',
+                    time: '2:45',
+                },
+                tokens: registrationTokens,
+            };
+            admin.messaging().sendMulticast(message)
+                .then((response) => {
+                console.log(response.successCount + ' messages were sent successfully');
+            });
+        });
+    }
+    calculateDistance(originLat, originLong) {
         return __awaiter(this, void 0, void 0, function* () {
             const userIds = [];
-            const api = 'url.com';
-            const data = 'some data';
+            const locations = yield this.locatorService.getAllLocations();
+            const api = env_config_1.default.serverSettings.azureApi;
+            const data = yield this.constructData(23, 32, locations);
             const result = yield axios_1.default.post(api, data);
+            console.log(result);
             return userIds;
+        });
+    }
+    constructData(originLat, originLong, locations) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const listCoordinates = [];
+            for (const location of locations) {
+                listCoordinates.push([location.latitude, location.longitude]);
+            }
+            const data = {
+                origins: {
+                    type: 'MultiPoint',
+                    coordinates: [
+                        [
+                            originLat,
+                            originLong,
+                        ],
+                    ],
+                },
+                destinations: {
+                    type: 'MultiPoint',
+                    coordinates: listCoordinates,
+                },
+            };
+            return data;
         });
     }
 };

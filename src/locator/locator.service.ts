@@ -24,6 +24,6 @@ export class LocatorService {
   }
 
   async getAllLocations(): Promise<Location[]> {
-    return await this.getAllLocations();
+    return await this.locationRepository.getAllLocations();
   }
 }

@@ -43,7 +43,7 @@ let LocatorService = class LocatorService {
     }
     getAllLocations() {
         return __awaiter(this, void 0, void 0, function* () {
-            return yield this.getAllLocations();
+            return yield this.locationRepository.getAllLocations();
         });
     }
 };

@@ -1,6 +1,7 @@
 export interface AppConfigInterface {
     serverSettings: {
         port: number;
+        azureApi: string;
     };
     typeOrmSettings: {
         host: string;
@@ -9,9 +10,5 @@ export interface AppConfigInterface {
         username: string;
         password: string;
         synchronize: boolean;
-    };
-    jwtSettings: {
-        publicKey: string;
-        privateKey: string;
     };
 }

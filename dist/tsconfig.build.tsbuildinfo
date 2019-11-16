@@ -2210,7 +2210,7 @@
         "signature": "bbd88dd583002628479894f1bcb2b63fcb67ba9a3425b6f60d37e581f87aa5c4"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts": {
-        "version": "df1acd84a4323e1518095fae9e71609c02e4870500dfba357e5757cf28ad90c4",
+        "version": "8883621f2b9e800c3e90ff3d098e89f6464f4e7afc5b30dddae15bf2689b87fa",
         "signature": "5a0ef766e1b59a991461bf27e4909800f925dd71994f65a3e119ecbf576af04d"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/login.dto.ts": {
@@ -2246,24 +2246,176 @@
         "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/interfaces/appconfig.interface.ts": {
-        "version": "d437a316b23960be23a140b4fb63f326363840dfcc78fb8076a34428412d2f97",
-        "signature": "28b74ac621148dd40b77abde820050d5289d7deb6e596c2d81d6dc85e4df8bc9"
+        "version": "78024b3b9e6c60dc8c7899ea1c77ad685cfdf98755befe362b54c0eed5ec93bc",
+        "signature": "c3488538d9872f9008eabacd8443fe1d3177cbabd91577ed0a7edbda71b0e5fe"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/env.config.ts": {
-        "version": "d27007caf93007328816335a179c3fcfd000d7470de5c05020f649dc85ed207a",
+        "version": "47fa4491e40bc9dc79d3924815768c8e5196dfa1ec535d016d9351f5f7dc4fd2",
         "signature": "77d95f3321c418d7adc703727f027981f39418413706d42391d37a831c79c0ac"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/typeorm.config.ts": {
         "version": "9055611f89dfa44918f79438eec468bf1703654166563cc4ad6b954f5033047f",
         "signature": "e48d1e836452920a823efe3c1f15dbaa531cbb2c536b3d47ad06ed5201a8b847"
       },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/event-target-shim/index.d.ts": {
+        "version": "2859adaa4f2db3d4f0fc37ad86f056045341496b58fba0dbc16a222f9d5d55b1",
+        "signature": "2859adaa4f2db3d4f0fc37ad86f056045341496b58fba0dbc16a222f9d5d55b1"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/abort-controller/dist/abort-controller.d.ts": {
+        "version": "655ed305e8f4cb95d3f578040301a4e4d6ace112b1bd8824cd32bda66c3677d1",
+        "signature": "655ed305e8f4cb95d3f578040301a4e4d6ace112b1bd8824cd32bda66c3677d1"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts": {
+        "version": "bad888a5b2c7eac7fc09882965836b6f997f5c063cd3a5d88d26c101319b5c6c",
+        "signature": "bad888a5b2c7eac7fc09882965836b6f997f5c063cd3a5d88d26c101319b5c6c"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/gaxios.d.ts": {
+        "version": "dc1a68ad8a9684ad4b452c03aa656d4d63bdde95b4010411e233a5c4326e6f6a",
+        "signature": "dc1a68ad8a9684ad4b452c03aa656d4d63bdde95b4010411e233a5c4326e6f6a"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts": {
+        "version": "cb789da1f75dc9d53848949aed3bb1d521de13c6340e5792a6b3f2c5e0c53e29",
+        "signature": "cb789da1f75dc9d53848949aed3bb1d521de13c6340e5792a6b3f2c5e0c53e29"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts": {
+        "version": "fd54d2b241c6591fc965b1e1cc10dafce890097edd9928b1f5db07c1b582144f",
+        "signature": "fd54d2b241c6591fc965b1e1cc10dafce890097edd9928b1f5db07c1b582144f"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/crypto/crypto.d.ts": {
+        "version": "b1f0f8eb436d82d1c3d2f2e176cb8ea2b6ac30915dc69f0648940f9da33e152c",
+        "signature": "b1f0f8eb436d82d1c3d2f2e176cb8ea2b6ac30915dc69f0648940f9da33e152c"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts": {
+        "version": "1a7ccb916ada74fe26db22ff7a5cefb5a81c74a3f424751321831bd651d97dd8",
+        "signature": "1a7ccb916ada74fe26db22ff7a5cefb5a81c74a3f424751321831bd651d97dd8"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/authclient.d.ts": {
+        "version": "20f9ec5de115a94520214161e0d714f2d1f694e85e0786f39b78c84c7f04cc91",
+        "signature": "20f9ec5de115a94520214161e0d714f2d1f694e85e0786f39b78c84c7f04cc91"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/loginticket.d.ts": {
+        "version": "ef2dfc62e76aa703d19b532f5c110d529f2f7305d2d5f76b82eb191386807459",
+        "signature": "ef2dfc62e76aa703d19b532f5c110d529f2f7305d2d5f76b82eb191386807459"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts": {
+        "version": "862c8adf419bd32f444188f6dc385a06c4f45ed14d8d5ee576c3b14029b54248",
+        "signature": "862c8adf419bd32f444188f6dc385a06c4f45ed14d8d5ee576c3b14029b54248"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts": {
+        "version": "b680eb78e740c569b82d81e3c1392086d800c69f02a9f78abe507b5f8cea5669",
+        "signature": "b680eb78e740c569b82d81e3c1392086d800c69f02a9f78abe507b5f8cea5669"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts": {
+        "version": "c21827d524830d5a37d5fe7ae7b90c874ca75297e1c89e7ad8a0ebe24503db35",
+        "signature": "c21827d524830d5a37d5fe7ae7b90c874ca75297e1c89e7ad8a0ebe24503db35"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts": {
+        "version": "9af8feeda60af930e2a0317e83f0968dd44c235892a967f5f1ae0ff15f7c3b05",
+        "signature": "9af8feeda60af930e2a0317e83f0968dd44c235892a967f5f1ae0ff15f7c3b05"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts": {
+        "version": "ba865196e419188be883239cba58148a3ed6d09927abe13654a2f2ee28352a23",
+        "signature": "ba865196e419188be883239cba58148a3ed6d09927abe13654a2f2ee28352a23"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts": {
+        "version": "0a8a8a5e03ecd4f34a2849cb1f6f22723129a95931d248e84f347d99f7ffcc98",
+        "signature": "0a8a8a5e03ecd4f34a2849cb1f6f22723129a95931d248e84f347d99f7ffcc98"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/googleauth.d.ts": {
+        "version": "5eb5c4cea4b13ef1c53dfa30ad498b5e904abb31ae2de40d0535a62266749081",
+        "signature": "5eb5c4cea4b13ef1c53dfa30ad498b5e904abb31ae2de40d0535a62266749081"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/iam.d.ts": {
+        "version": "56f55126f5817cd248c39151038e927a8ffadeb73903c1e5a6300171cec634bb",
+        "signature": "56f55126f5817cd248c39151038e927a8ffadeb73903c1e5a6300171cec634bb"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtaccess.d.ts": {
+        "version": "4929afc46bf6f1c5d3ceb0970ffd1f07fbec487cd6708aecc28701d0e5547596",
+        "signature": "4929afc46bf6f1c5d3ceb0970ffd1f07fbec487cd6708aecc28701d0e5547596"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts": {
+        "version": "a3c1871e868fa310e6426d5ea53c8c1a7352db53d4aa53234d12e07a06dd6cff",
+        "signature": "a3c1871e868fa310e6426d5ea53c8c1a7352db53d4aa53234d12e07a06dd6cff"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts": {
+        "version": "1ef82373a19bae276d64e230a668816d96562ffdf266bc67e0a91dd30bb20d0f",
+        "signature": "1ef82373a19bae276d64e230a668816d96562ffdf266bc67e0a91dd30bb20d0f"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts": {
+        "version": "1c592a1851a559f99a6a0ad7bac58da992e3dd33f7abac96a734a5be49a05860",
+        "signature": "1c592a1851a559f99a6a0ad7bac58da992e3dd33f7abac96a734a5be49a05860"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts": {
+        "version": "4e7b4aa5f824e23e6364cd1d7473c665d7b06b08f973cb2035657a419826b6da",
+        "signature": "4e7b4aa5f824e23e6364cd1d7473c665d7b06b08f973cb2035657a419826b6da"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/operation.d.ts": {
+        "version": "7b0dad26d8d3ea293d332162f563f1f60c35dd5b0d44850fa330a901e781ca5d",
+        "signature": "7b0dad26d8d3ea293d332162f563f1f60c35dd5b0d44850fa330a901e781ca5d"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service.d.ts": {
+        "version": "27d8eb0ae5461fac42501d2fed4ff876414de3182dea7df38f465409b2ccb039",
+        "signature": "27d8eb0ae5461fac42501d2fed4ff876414de3182dea7df38f465409b2ccb039"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts": {
+        "version": "a673754b47203b9e1d15d95014c847593f00b3e33fb2ace08f76d9c3dca3f9ab",
+        "signature": "a673754b47203b9e1d15d95014c847593f00b3e33fb2ace08f76d9c3dca3f9ab"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts": {
+        "version": "6992d41b0acd6727d44d6d86283197d6ec74d84ae4c0a8fb710891c05d1927c4",
+        "signature": "6992d41b0acd6727d44d6d86283197d6ec74d84ae4c0a8fb710891c05d1927c4"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts": {
+        "version": "ca764aa156b60e834083f66c97ebee09fc16cb48db3f73312680a0f825349a1c",
+        "signature": "ca764aa156b60e834083f66c97ebee09fc16cb48db3f73312680a0f825349a1c"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts": {
+        "version": "e7b474c04b8410aae56d6dc26beaa00b4c48df80fe291eb26ec45eee8423954f",
+        "signature": "e7b474c04b8410aae56d6dc26beaa00b4c48df80fe291eb26ec45eee8423954f"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts": {
+        "version": "cbba013a2973688f58cf4c7e7a78f44c107fedc4462a2a25bbcca9f753c7f896",
+        "signature": "cbba013a2973688f58cf4c7e7a78f44c107fedc4462a2a25bbcca9f753c7f896"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts": {
+        "version": "d8eb48b2e2ee472f564d475b5f79bcb345cd057e4772414b1fcf7fd05cc66df4",
+        "signature": "d8eb48b2e2ee472f564d475b5f79bcb345cd057e4772414b1fcf7fd05cc66df4"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts": {
+        "version": "3cf9707ff7c39a254bcb3905d1040bd375f02be49bc889ed8f751d9d7b615ed6",
+        "signature": "3cf9707ff7c39a254bcb3905d1040bd375f02be49bc889ed8f751d9d7b615ed6"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts": {
+        "version": "9f5f3726d073278f1e5078e2689415c7d9a9827d9c4efffc78a9307534bb173e",
+        "signature": "9f5f3726d073278f1e5078e2689415c7d9a9827d9c4efffc78a9307534bb173e"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts": {
+        "version": "cb4b3a067ee393dffe76366f6036075693dd9c33a6a0bb61ba4831bcfebb7e28",
+        "signature": "cb4b3a067ee393dffe76366f6036075693dd9c33a6a0bb61ba4831bcfebb7e28"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/index.d.ts": {
+        "version": "076c9f26394e19e834f74eb53f87a8242c0d9ba05c47e63a873907f9a111a183",
+        "signature": "076c9f26394e19e834f74eb53f87a8242c0d9ba05c47e63a873907f9a111a183"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/firestore/types/firestore.d.ts": {
+        "version": "9b4a5e1efe30a340da7985eb70291fa3b5968337ecd35142af78e6dfb304ce1d",
+        "signature": "9b4a5e1efe30a340da7985eb70291fa3b5968337ecd35142af78e6dfb304ce1d"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/firebase-admin/lib/index.d.ts": {
+        "version": "672f1c4608293d854cb7c8a53f3ada06c6c6b3c39cd088cfc3049483dc6d5f20",
+        "signature": "672f1c4608293d854cb7c8a53f3ada06c6c6b3c39cd088cfc3049483dc6d5f20"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts": {
+        "version": "bec8ecbbd66f5c13d9e93aca0e799008bcd298153866b4d80f2b109e0fb9923b",
+        "signature": "82163e6b41a184e178fbf1995df5bd8052bf7a23a75ffc27f5b4cf9c53e21fa9"
+      },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts": {
-        "version": "10aefe45bfb40c2a357969f74c9a822c34715df8d1d516f9b0789ea125a1f82e",
-        "signature": "d4bc1d9627f5366b966c28f0670354ae7495f63a7c359eded134c665f4920a4c"
+        "version": "baf956d7d19a49c6e3335e62b47c32ed681ad6ece868b8449b624838032cd9c4",
+        "signature": "b08f973cef0c473425166275b614da29d93fdbaeb5caf14d6b16507fd5ba7d81"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.controller.ts": {
-        "version": "f05b2a7993851d1f6f90618bcf2712bf4c1089c6a6bc1e87a944291a5e043ccd",
-        "signature": "03ef093399f930a6d8ad8ca4f4808d0afa506b50201fc2a45ab501b4ab47357f"
+        "version": "8aae82ca6cf3049a13bdf96df5aa2c1fccd5da5ed868bcc121776fa37098aae6",
+        "signature": "08ecba763a7dece3e01a2b15899ce24db6c2b85f5bc75a0655fced0fa24d9e78"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.module.ts": {
         "version": "c5c609f273f54fe15f103fdc2d7f0217fc903e2cd87fe78c3fef581e4463eac3",
@@ -2444,6 +2596,10 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/json5/index.d.ts": {
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538"
+      },
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/long/index.d.ts": {
+        "version": "d32ef7739402db3a15640222d047f0044e8e9a09ee123d49e8f57f3c66c2a732",
+        "signature": "d32ef7739402db3a15640222d047f0044e8e9a09ee123d49e8f57f3c66c2a732"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/superagent/index.d.ts": {
         "version": "917ef877f705a9e37030fa85387a3d9ced337db830b4dec26559dc00b6b0b17b",
@@ -6056,15 +6212,296 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/event-target-shim/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/abort-controller/dist/abort-controller.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/event-target-shim/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/abort-controller/dist/abort-controller.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/http.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/url.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/gaxios.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/gaxios.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/crypto/crypto.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/authclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/events.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/loginticket.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/crypto/crypto.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/authclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/loginticket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/googleauth.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/iam.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtaccess.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/iam.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtaccess.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/https.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/events.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/operation.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/operation.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/http.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/firestore/types/firestore.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/firebase-admin/lib/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/firestore/types/firestore.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/http.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/axios/index.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/firebase-admin/lib/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/entities/location.entity.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/env.config.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.controller.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -6364,6 +6801,10 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/json5/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/long/index.d.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9886,8 +10327,283 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/typeorm.config.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/index.d.ts"
       ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/event-target-shim/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/abort-controller/dist/abort-controller.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/event-target-shim/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/abort-controller/dist/abort-controller.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/http.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/url.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/gaxios.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/gaxios.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/crypto/crypto.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/authclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/events.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/loginticket.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/crypto/crypto.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/authclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/loginticket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/googleauth.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/iam.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtaccess.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/iam.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtaccess.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/https.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/events.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/operation.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/operation.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/http.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/stream.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/firestore/types/firestore.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/firebase-admin/lib/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/index.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/firestore/types/firestore.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/http.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts": [
-        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts"
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.controller.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/common/index.d.ts",
@@ -10158,6 +10874,10 @@
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/json5/index.d.ts": [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/long/index.d.ts": [
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/util.d.ts",
         "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -10706,6 +11426,7 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/dist/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/typeorm/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/entities/user.entity.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/repositories/user.repository.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/validation/validationerror.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/validation/validatoroptions.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/validation-schema/validationschema.d.ts",
@@ -10729,15 +11450,95 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/repositories/location.repository.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/dto/location.dto.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.service.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/login.dto.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.controller.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/get-user.decorator.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.controller.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/locator/locator.module.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/dotenv/types/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/interfaces/appconfig.interface.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/env.config.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/config/typeorm.config.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/event-target-shim/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/abort-controller/dist/abort-controller.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/common.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/gaxios.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gaxios/build/src/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/transporters.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/crypto/crypto.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/credentials.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/authclient.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/loginticket.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/oauth2client.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/computeclient.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/envdetect.d.ts",
+      [
+        "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts",
+        [
+          {
+            "file": "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts",
+            "start": 777,
+            "length": 11,
+            "messageText": "An accessor cannot be declared in an ambient context.",
+            "category": 1,
+            "code": 1086
+          },
+          {
+            "file": "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts",
+            "start": 820,
+            "length": 7,
+            "messageText": "An accessor cannot be declared in an ambient context.",
+            "category": 1,
+            "code": 1086
+          },
+          {
+            "file": "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts",
+            "start": 859,
+            "length": 9,
+            "messageText": "An accessor cannot be declared in an ambient context.",
+            "category": 1,
+            "code": 1086
+          },
+          {
+            "file": "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/gtoken/build/src/index.d.ts",
+            "start": 900,
+            "length": 12,
+            "messageText": "An accessor cannot be declared in an ambient context.",
+            "category": 1,
+            "code": 1086
+          }
+        ]
+      ],
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtclient.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/refreshclient.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/iam.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/auth/jwtaccess.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/google-auth-library/build/src/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/teeny-request/build/src/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/util.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service-object.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/operation.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/service.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/common/build/src/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/acl.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/file.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/hmackey.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/storage.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/channel.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/iam.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/notification.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/bucket.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/storage/build/src/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/firestore/types/firestore.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/firebase-admin/lib/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.controller.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.module.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/app.module.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/adapters/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/constants.d.ts",
@@ -10781,15 +11582,9 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/express/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/jest/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/json5/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/long/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/superagent/index.d.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/supertest/index.d.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/repositories/user.repository.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/login.dto.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.controller.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/app.module.ts"
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/supertest/index.d.ts"
     ]
   },
   "version": "3.4.3"
