@@ -41,6 +41,11 @@ let LocatorService = class LocatorService {
             return;
         });
     }
+    getAllLocations() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield this.getAllLocations();
+        });
+    }
 };
 LocatorService = __decorate([
     common_1.Injectable(),

@@ -13,6 +13,7 @@ const auth_module_1 = require("./auth/auth.module");
 const typeorm_1 = require("@nestjs/typeorm");
 const typeOrm_config_1 = require("./config/typeOrm.config");
 const locator_module_1 = require("./locator/locator.module");
+const notificator_module_1 = require("./notificator/notificator.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -21,6 +22,7 @@ AppModule = __decorate([
             typeorm_1.TypeOrmModule.forRoot(typeOrm_config_1.typeOrmConfig),
             auth_module_1.AuthModule,
             locator_module_1.LocatorModule,
+            notificator_module_1.NotificatorModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

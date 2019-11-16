@@ -5,6 +5,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -14,35 +17,24 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const typeorm_1 = require("typeorm");
-const location_entity_1 = require("../entities/location.entity");
-let LocationRepository = class LocationRepository extends typeorm_1.Repository {
-    createLocation(latitude, longitude, user) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const location = new location_entity_1.Location();
-            location.latitude = latitude;
-            location.longitude = longitude;
-            location.user = user;
-            yield this.save(location);
-        });
+const common_1 = require("@nestjs/common");
+const axios_1 = require("axios");
+const locator_service_1 = require("../locator/locator.service");
+let NotificatorService = class NotificatorService {
+    constructor(locatorService) {
+        this.locatorService = locatorService;
     }
-    updateLocation(latitude, longitude, user) {
+    calculateDistance() {
         return __awaiter(this, void 0, void 0, function* () {
-            const location = yield this.findOne({ user });
-            location.latitude = latitude;
-            location.longitude = longitude;
-            delete location.lastUpdated;
-            yield this.update(location.id, location);
-        });
-    }
-    getAllLocations() {
-        return __awaiter(this, void 0, void 0, function* () {
-            return yield this.find();
+            const userIds = [];
+            const result = yield axios_1.default.post('url.com');
+            return userIds;
         });
     }
 };
-LocationRepository = __decorate([
-    typeorm_1.EntityRepository(location_entity_1.Location)
-], LocationRepository);
-exports.LocationRepository = LocationRepository;
-//# sourceMappingURL=location.repository.js.map
+NotificatorService = __decorate([
+    common_1.Injectable(),
+    __metadata("design:paramtypes", [locator_service_1.LocatorService])
+], NotificatorService);
+exports.NotificatorService = NotificatorService;
+//# sourceMappingURL=notificator.service.js.map
