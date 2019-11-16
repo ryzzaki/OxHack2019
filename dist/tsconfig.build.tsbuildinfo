@@ -2194,7 +2194,7 @@
         "signature": "70aecfd981af29d74ba7ab6667b9cc2a53459d8eb099c139fd2aa54c3059c71d"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts": {
-        "version": "2a3e83e9c0637e8111ce3cf150ad25b733838beaf1c0e93e20778018b2ada3f2",
+        "version": "7d47f5584779c1c33745e50f948427032cfee2295d9cc2da9b58c58d2a6aa1d0",
         "signature": "f5eb889c268740ae4ca18dd62ef119d4084a644f519f42c7f0dc41eee0d45e5d"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts": {
@@ -10571,7 +10571,6 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/metadata/constraintmetadata.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/metadata/metadatastorage.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/class-validator/index.d.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.service.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.controller.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/auth.module.ts",
@@ -10611,6 +10610,7 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/services/reflector.service.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/services/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@nestjs/core/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/main.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/connect/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/body-parser/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/color-name/index.d.ts",
@@ -10624,7 +10624,7 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/json5/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/superagent/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/supertest/index.d.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/main.ts"
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/auth/dto/register.dto.ts"
     ]
   },
   "version": "3.4.3"

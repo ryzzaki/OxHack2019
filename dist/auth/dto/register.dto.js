@@ -34,7 +34,6 @@ __decorate([
 ], RegisterDto.prototype, "email", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
-    class_validator_1.IsEmail(),
     __metadata("design:type", String)
 ], RegisterDto.prototype, "password", void 0);
 exports.RegisterDto = RegisterDto;
