@@ -1,4 +1,4 @@
-import { IsNotEmpty } from 'class-validator';
+import { IsNotEmpty, IsString } from 'class-validator';
 
 export class OriginDto {
   @IsNotEmpty()
@@ -9,4 +9,7 @@ export class OriginDto {
 
   @IsNotEmpty()
   ambulanceEta: number;
+
+  @IsString()
+  description: string;
 }

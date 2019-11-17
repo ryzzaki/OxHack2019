@@ -12,7 +12,7 @@ export class NotificatorService {
   ) {}
 
   async callHelp(originDto: OriginDto): Promise<void> {
-    const { originLat, originLong, ambulanceEta } = originDto;
+    const { originLat, originLong, ambulanceEta, description } = originDto;
     const etaInSeconds = ambulanceEta * 60;
     const relativeUsers = await this.calculateDistance(originLong, originLat);
     const sorted = relativeUsers.sort((a, b) => (a.travelTime > b.travelTime) ? 1 : ((b.travelTime > a.travelTime) ? -1 : 0));
@@ -20,12 +20,12 @@ export class NotificatorService {
       if (person.travelTime > etaInSeconds) {
         break;
       } else {
-        await this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id, etaInSeconds);
+        await this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id, etaInSeconds, description);
       }
     }
   }
 
-  async sendNotifications(originLat: number, originLong: number, length: number, travelTime: number, userId: number, ambulanceEta: number): Promise<void> {
+  async sendNotifications(originLat: number, originLong: number, length: number, travelTime: number, userId: number, ambulanceEta: number, description: string): Promise<void> {
     const serviceAccount = require('../../oxfordhack2019-99a45-firebase-adminsdk-ocfvv-cb67a5d2e6.json');
 
     if (!admin.apps.length) {
@@ -58,6 +58,7 @@ export class NotificatorService {
         userId: String(userId),
         lengthInMeters: String(length),
         travelTimeInSeconds: String(travelTime),
+        description: String(description),
       },
       tokens: registrationTokens,
     };

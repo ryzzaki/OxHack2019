@@ -16,7 +16,7 @@ export class NotificatorController {
 
   @Get('/test')
   test(): Promise<void> {
-    this.notificatorService.sendNotifications(30, 30, 30, 30, 30, 300);
+    this.notificatorService.sendNotifications(30, 30, 30, 30, 30, 300, 'olala');
     return;
   }
 }
