@@ -1,10 +1,13 @@
 $(document).ready(function() {
-    $('#contact_form').bootstrapValidator({
+
+
+    $('#accident_form').bootstrapValidator({
         feedbackIcons: {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
             validating: 'glyphicon glyphicon-refresh'
         },
+        
         fields: {
             latitude: {
                 validators: {
@@ -41,7 +44,7 @@ $(document).ready(function() {
 
         .on('success.form.bv', function(e) {
             $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
-                $('#contact_form').data('bootstrapValidator').resetForm();
+                $('#accident_form').data('bootstrapValidator').resetForm();
 
             // Prevent form submission
             e.preventDefault();
@@ -52,9 +55,26 @@ $(document).ready(function() {
             // Get the BootstrapValidator instance
             var bv = $form.data('bootstrapValidator');
 
-            // Use Ajax to submit form data
-            $.post($form.attr('action'), $form.serialize(), function(result) {
-                console.log(result);
-            }, 'json');
+            var request = new XMLHttpRequest();
+            var url = "localhost:3000/api/notificator/call";
+            request.open("POST", url, true);
+            request.setRequestHeader("Content-Type", "application/json");
+            request.onreadystatechange = function () {
+                if (request.readyState === 4 && request.status === 200) {
+                    var jsonData = JSON.parse(request.response);
+                    console.log(jsonData);
+                }
+            };
+            var longitude =  document.getElementById("longitude").value;
+            var latitude = document.getElementById("latitude").value;
+            var eta = document.getElementById("eta").value;
+            var description = document.getElementById("description").value;
+
+            var data = JSON.stringify({"longitude": longitude, "latitude": latitude, "eta": eta, "description": description});
+
+
+            request.send(data);
+
         });
+        
 });
