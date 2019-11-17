@@ -6,7 +6,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/herologo_v2-page-001.ico">
-    <script src='validation.js'></script>
 
     <title>Accident Report</title>
 
@@ -14,12 +13,21 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="accidentReportStylesheet.css" rel="stylesheet">
+    <script>
+      function submitForm(){
+        var request = new XMLHttpRequest();
+        var url = "http://localhost:3000/api/notificator/call";
+        request.open("POST", url, true);
+        request.setRequestHeader("Content-Type", "application/json");
+        request.send(JSON.parse('{ "name":"John", "age":30, "city":"New York"}'));   
+      }
+    </script>
   </head>
 
   <body class="text-center">
       <div class="container">
 
-          <form class="well form-horizontal" action=" " method="post"  id="accident_form">
+          <form class="well form-horizontal" method="post"  id="accident_form">
       <fieldset>
       
       <!-- Form Name -->
@@ -85,11 +93,12 @@
       <!-- Success message -->
       <!-- <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div> -->
       
+
       <!-- Button -->
       <div class="form-group">
         <label class="col-md-4 control-label"></label>
         <div class="col-md-4"><br>
-          <button type="submit" class="btn btn-warning" onclick = >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSend to Hero's <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+          <button type="submit" class="btn btn-warning" onclick="submitForm()" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSend to Hero's <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
         </div>
       </div>
       
