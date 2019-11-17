@@ -23,17 +23,17 @@
         console.log(json)*/
         //var formData = $("accident_form").serializeObject();
         //console.log(formData);
-        var lat = document.getElementById('latitude').value
-        var long = document.getElementById('longitude').value
-        var eta = document.getElementById('eta').value
+        var lat = document.getElementById('originLat').value
+        var long = document.getElementById('originLong').value
+        var eta = document.getElementById('ambulanceEta').value
         var desc = document.getElementById('description').value
 
         console.log(lat)
 
         var request = new XMLHttpRequest();
         console.log(request);
-        var url = "http://localhost:3000/api/notificator/call";
-        request.open("POST", url, true);
+        var url = "http://localhost:3000/api/notificator/callhard";
+        request.open("GET", url, false);
         request.setRequestHeader("Content-Type", "application/json");
         request.send(JSON.parse(`{ "originLat": "${lat}", "originLong":"${long}", "ambulanceEta":"${eta}", "description":"${desc}"}`));   
       }

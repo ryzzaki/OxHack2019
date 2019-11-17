@@ -25,6 +25,19 @@ export class NotificatorService {
     }
   }
 
+  async callHelpHard(): Promise<void> {
+    const etaInSeconds = 6 * 60;
+    const relativeUsers = await this.calculateDistance(-1.257726, 51.752022);
+    const sorted = relativeUsers.sort((a, b) => (a.travelTime > b.travelTime) ? 1 : ((b.travelTime > a.travelTime) ? -1 : 0));
+    for (const person of sorted) {
+      if (person.travelTime > etaInSeconds) {
+        break;
+      } else {
+        await this.sendNotifications(51.752022, -1.257726, person.length, person.travelTime, person.id, etaInSeconds, 'Something').catch(err => { return; });
+      }
+    }
+  }
+
   async sendNotifications(originLat: number, originLong: number, length: number, travelTime: number, userId: number, ambulanceEta: number, description: string): Promise<void> {
     const serviceAccount = require('../../oxfordhack2019-99a45-firebase-adminsdk-ocfvv-cb67a5d2e6.json');
 
