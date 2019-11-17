@@ -16,7 +16,8 @@ export class NotificatorController {
 
   @Get('/callhard')
   callHelpHard(): Promise<void> {
-    this.notificatorService.callHelpHard();
+    // this.notificatorService.callHelpHard();
+    this.notificatorService.sendNotifications(51.752022, -1.257726, 12, 70, 3, 300, 'CPR REQUIRED');
     return;
   }
 
