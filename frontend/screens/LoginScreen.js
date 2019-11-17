@@ -65,6 +65,9 @@ export default class LoginScreen extends Component {
   }
 
   render() {
+    if(this.remember.state.set){
+      this.props.navigation.navigate("app");
+    }
     //console.log("login screen props", this.props);
     return (
       <ScrollView
