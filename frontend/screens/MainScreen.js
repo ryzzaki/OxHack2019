@@ -64,7 +64,7 @@ export default class MainScreen extends Component {
         });
     }
     state = {
-        emergency: true,//TOCHANGE,
+        emergency: false,//TOCHANGE,
         ds: "5 minutes away",
         markers:  [
             {
@@ -134,7 +134,7 @@ export default class MainScreen extends Component {
                 </TouchableOpacity>
                 <TouchableOpacity
                 style={styles.button}
-                onPress={()=>this.setState({emergency: false})}>
+                onPress={()=>this.setState({emergency: false, decided: false})}>
                     <Text style={styles.label}>No</Text>
                 </TouchableOpacity>
             </View></View>
