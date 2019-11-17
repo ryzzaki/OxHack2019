@@ -37,18 +37,16 @@ let AuthService = class AuthService {
             const hashedPass = yield this.hashPassword(password);
             const user = yield this.userRepository.registerUser(firstName, lastName, address, email, hashedPass);
             yield this.locatorService.createLocation(latitude, longitude, user);
-            return;
+            return user;
         });
     }
     loginUser(loginDto, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const { email, password } = loginDto;
-            if (yield this.userRepository.isValidPassword(email, password)) {
-                res.status(200).send({
-                    message: 'Credentials Verified!',
-                });
+            if (!(yield this.userRepository.isValidPassword(email, password))) {
+                throw new common_1.UnauthorizedException('Wrong credentials!');
             }
-            return;
+            return yield this.userRepository.findOne({ email });
         });
     }
     hashPassword(password) {

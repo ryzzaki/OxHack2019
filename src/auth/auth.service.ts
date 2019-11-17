@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { User } from './entities/user.entity';
 import { UserRepository } from './repositories/user.repository';
@@ -15,22 +15,20 @@ export class AuthService {
     private readonly locatorService: LocatorService,
   ) {}
 
-  async registerUser(registerDto: RegisterDto): Promise<void> {
+  async registerUser(registerDto: RegisterDto): Promise<User> {
     const { firstName, lastName, address, email, password, latitude, longitude } = registerDto;
     const hashedPass = await this.hashPassword(password);
     const user: User = await this.userRepository.registerUser(firstName, lastName, address, email, hashedPass);
     await this.locatorService.createLocation(latitude, longitude, user);
-    return;
+    return user;
   }
 
-  async loginUser(loginDto: LoginDto, res: any): Promise<void> {
+  async loginUser(loginDto: LoginDto, res: any): Promise<User> {
     const { email, password } = loginDto;
-    if (await this.userRepository.isValidPassword(email, password)) {
-      res.status(200).send({
-        message: 'Credentials Verified!',
-      });
+    if (!await this.userRepository.isValidPassword(email, password)) {
+      throw new UnauthorizedException('Wrong credentials!');
     }
-    return;
+    return await this.userRepository.findOne({ email });
   }
 
   private async hashPassword(password: string): Promise<string> {
