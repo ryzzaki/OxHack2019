@@ -20,12 +20,12 @@ export class NotificatorService {
       if (person.travelTime > etaInSeconds) {
         break;
       } else {
-        await this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id);
+        await this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id, etaInSeconds);
       }
     }
   }
 
-  async sendNotifications(originLat: number, originLong: number, length: number, travelTime: number, userId: number): Promise<void> {
+  async sendNotifications(originLat: number, originLong: number, length: number, travelTime: number, userId: number, ambulanceEta: number): Promise<void> {
     const serviceAccount = require('../../oxfordhack2019-99a45-firebase-adminsdk-ocfvv-cb67a5d2e6.json');
 
     if (!admin.apps.length) {
@@ -45,10 +45,11 @@ export class NotificatorService {
         body: `PERSON IN VICINITY OF ${length} METRES NEEDS YOUR AID!`,
       },
       android: {
-        ttl: 3600 * 1000,
+        ttl: ambulanceEta * 1000,
         notification: {
-          //icon: '',
+          // icon: '../../icons/HeroLogo10x10.png',
           color: '#f45342',
+          sound: 'default',
         },
       },
       data: {

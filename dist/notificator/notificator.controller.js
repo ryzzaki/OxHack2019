@@ -24,7 +24,7 @@ let NotificatorController = class NotificatorController {
         return;
     }
     test() {
-        this.notificatorService.sendNotifications(30, 30, 30, 30, 30);
+        this.notificatorService.sendNotifications(30, 30, 30, 30, 30, 300);
         return;
     }
 };

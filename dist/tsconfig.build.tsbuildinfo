@@ -2410,11 +2410,11 @@
         "signature": "652e3ff0d0c0d87cb49aa72f0e4bd1c2a85e1fa5ad2535f73c96698dff6b469b"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts": {
-        "version": "e34657daff2e12664370e91722f28dd7c24dd4d180ca4725fa7172953c7e2dd2",
-        "signature": "959fb18a38fd853d0aeddc74206a61fcf3877c69b65434734f182e0d7864dadc"
+        "version": "27232f842fa81533d757498f191c2e1f0baf2255a207a1c87e5a428373803387",
+        "signature": "d2d4231f5f927c39f2e64c82b24a1f4303a752279d33762058827136dcc30b04"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.controller.ts": {
-        "version": "d6253b58266d8adf9dca9392348697148c9ac95dc2f827d251eac65ef7cd6744",
+        "version": "d040dcff0a0d47f966644ef8c96dfe6c97c4939c5a71cb9329259b39df888e80",
         "signature": "08ecba763a7dece3e01a2b15899ce24db6c2b85f5bc75a0655fced0fa24d9e78"
       },
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.module.ts": {
@@ -11534,7 +11534,6 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@google-cloud/firestore/types/firestore.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/firebase-admin/lib/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/dto/origin.dto.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.controller.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.module.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/app.module.ts",
@@ -11583,7 +11582,8 @@
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/json5/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/long/index.d.ts",
       "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/superagent/index.d.ts",
-      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/supertest/index.d.ts"
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/node_modules/@types/supertest/index.d.ts",
+      "/users/cngng/documents/nodejs/oxford hack 2019/hero/src/notificator/notificator.service.ts"
     ]
   },
   "version": "3.4.3"

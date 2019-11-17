@@ -37,12 +37,12 @@ let NotificatorService = class NotificatorService {
                     break;
                 }
                 else {
-                    yield this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id);
+                    yield this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id, etaInSeconds);
                 }
             }
         });
     }
-    sendNotifications(originLat, originLong, length, travelTime, userId) {
+    sendNotifications(originLat, originLong, length, travelTime, userId, ambulanceEta) {
         return __awaiter(this, void 0, void 0, function* () {
             const serviceAccount = require('../../oxfordhack2019-99a45-firebase-adminsdk-ocfvv-cb67a5d2e6.json');
             if (!admin.apps.length) {
@@ -60,9 +60,10 @@ let NotificatorService = class NotificatorService {
                     body: `PERSON IN VICINITY OF ${length} METRES NEEDS YOUR AID!`,
                 },
                 android: {
-                    ttl: 3600 * 1000,
+                    ttl: ambulanceEta * 1000,
                     notification: {
                         color: '#f45342',
+                        sound: 'default',
                     },
                 },
                 data: {
