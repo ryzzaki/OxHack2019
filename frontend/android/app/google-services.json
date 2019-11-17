@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285925076351",
+    "firebase_url": "https://oxfordhack2019-99a45.firebaseio.com",
+    "project_id": "oxfordhack2019-99a45",
+    "storage_bucket": "oxfordhack2019-99a45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285925076351:android:b29cd0ce7c9f21bd32be4a",
+        "android_client_info": {
+          "package_name": "com.hero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285925076351-ghfq4ofet5qddr4q32fhjlmsob9tu8hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz8PUkx1U84IJPdZ4W_z5V0zI56JSQeMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285925076351-ghfq4ofet5qddr4q32fhjlmsob9tu8hb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
