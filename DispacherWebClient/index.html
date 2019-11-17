@@ -14,12 +14,27 @@
 
     <link href="accidentReportStylesheet.css" rel="stylesheet">
     <script>
+
+      //import serialize from 'form-serialize';
+
       function submitForm(){
+        /*const formData = serialize(accident_form, { hash: true });
+        const json = JSON.stringify(apiData);
+        console.log(json)*/
+        //var formData = $("accident_form").serializeObject();
+        //console.log(formData);
+        var lat = document.getElementById('latitude').value
+        var long = document.getElementById('longitude').value
+        var eta = document.getElementById('eta').value
+        var desc = document.getElementById('description').value
+
+        console.log(lat)
+
         var request = new XMLHttpRequest();
         var url = "http://localhost:3000/api/notificator/call";
         request.open("POST", url, true);
         request.setRequestHeader("Content-Type", "application/json");
-        request.send(JSON.parse('{ "name":"John", "age":30, "city":"New York"}'));   
+        request.send(JSON.parse(`{ "originLat": "${lat}", "originLong":"${long}", "ambulanceEta":"${eta}", "description":"${desc}"}`));   
       }
     </script>
   </head>
@@ -27,7 +42,7 @@
   <body class="text-center">
       <div class="container">
 
-          <form class="well form-horizontal" method="post"  id="accident_form">
+          <form class="well form-horizontal" action="javascript:submitForm()" method="post"  id="accident_form">
       <fieldset>
       
       <!-- Form Name -->
