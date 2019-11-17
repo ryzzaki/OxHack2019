@@ -23,9 +23,14 @@ export class AuthService {
     return;
   }
 
-  async loginUser(loginDto: LoginDto): Promise<void> {
+  async loginUser(loginDto: LoginDto, res: any): Promise<void> {
     const { email, password } = loginDto;
-    await this.userRepository.isValidPassword(email, password);
+    if (await this.userRepository.isValidPassword(email, password)) {
+      res.status(200).send({
+        message: 'Credentials Verified!',
+      });
+    }
+    return;
   }
 
   private async hashPassword(password: string): Promise<string> {

@@ -1,4 +1,4 @@
-import { Controller, Post, Body, ValidationPipe } from '@nestjs/common';
+import { Controller, Post, Body, ValidationPipe, Res } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
@@ -15,7 +15,7 @@ export class AuthController {
   }
 
   @Post('/login')
-  loginIn(@Body(ValidationPipe) loginDto: LoginDto): Promise<void> {
-    return this.authService.loginUser(loginDto);
+  loginIn(@Body(ValidationPipe) loginDto: LoginDto, @Res() res: any): Promise<void> {
+    return this.authService.loginUser(loginDto, res);
   }
 }

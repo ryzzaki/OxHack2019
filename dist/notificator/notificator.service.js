@@ -37,32 +37,50 @@ let NotificatorService = class NotificatorService {
                     break;
                 }
                 else {
-                    yield this.sendNotifications();
+                    yield this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id);
                 }
             }
-            yield this.sendNotifications();
         });
     }
-    sendNotifications() {
+    sendNotifications(originLat, originLong, length, travelTime, userId) {
         return __awaiter(this, void 0, void 0, function* () {
-            admin.initializeApp({
-                credential: admin.credential.applicationDefault(),
-                databaseURL: 'https://<DATABASE_NAME>.firebaseio.com',
-            });
+            const serviceAccount = require('../../oxfordhack2019-99a45-firebase-adminsdk-ocfvv-cb67a5d2e6.json');
+            if (!admin.apps.length) {
+                admin.initializeApp({
+                    credential: admin.credential.cert(serviceAccount),
+                    databaseURL: 'https://oxfordhack2019-99a45.firebaseio.com',
+                });
+            }
             const registrationTokens = [
-                'YOUR_REGISTRATION_TOKEN_1',
-                'YOUR_REGISTRATION_TOKEN_N',
+                'eDz3vM_Cwuo:APA91bGPJ9dbqndV92eTSmrYXlUrtti_YFxev0oj0epAYBr082pdNl45k2D0c0c2YAiFzl7hvIFVImecxk7JNxskqBAr2KEzQa9LKm97vtBmExpuZ9wzTQLWXQkZeXB7C72sCZgdRQeE',
             ];
             const message = {
+                notification: {
+                    title: 'EMERGENCY',
+                    body: `PERSON IN VICINITY OF ${length} METRES NEEDS YOUR AID!`,
+                },
+                android: {
+                    ttl: 3600 * 1000,
+                    notification: {
+                        color: '#f45342',
+                    },
+                },
                 data: {
-                    score: '850',
-                    time: '2:45',
+                    longitude: String(originLong),
+                    latitude: String(originLat),
+                    userId: String(userId),
+                    lengthInMeters: String(length),
+                    travelTimeInSeconds: String(travelTime),
                 },
                 tokens: registrationTokens,
             };
             admin.messaging().sendMulticast(message)
                 .then((response) => {
                 console.log(response.successCount + ' messages were sent successfully');
+                console.log(response);
+            })
+                .catch((error) => {
+                console.log('Error sending message:', error);
             });
         });
     }

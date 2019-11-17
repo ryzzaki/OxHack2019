@@ -4,7 +4,7 @@ export declare class NotificatorService {
     private readonly locatorService;
     constructor(locatorService: LocatorService);
     callHelp(originDto: OriginDto): Promise<void>;
-    private sendNotifications;
-    calculateDistance(originLat: number, originLong: number): Promise<any>;
+    sendNotifications(originLat: number, originLong: number, length: number, travelTime: number, userId: number): Promise<void>;
+    private calculateDistance;
     private constructData;
 }

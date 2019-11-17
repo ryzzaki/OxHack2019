@@ -7,6 +7,6 @@ export declare class AuthService {
     private readonly locatorService;
     constructor(userRepository: UserRepository, locatorService: LocatorService);
     registerUser(registerDto: RegisterDto): Promise<void>;
-    loginUser(loginDto: LoginDto): Promise<void>;
+    loginUser(loginDto: LoginDto, res: any): Promise<void>;
     private hashPassword;
 }

@@ -40,10 +40,15 @@ let AuthService = class AuthService {
             return;
         });
     }
-    loginUser(loginDto) {
+    loginUser(loginDto, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const { email, password } = loginDto;
-            yield this.userRepository.isValidPassword(email, password);
+            if (yield this.userRepository.isValidPassword(email, password)) {
+                res.status(200).send({
+                    message: 'Credentials Verified!',
+                });
+            }
+            return;
         });
     }
     hashPassword(password) {

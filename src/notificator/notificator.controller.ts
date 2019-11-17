@@ -13,4 +13,10 @@ export class NotificatorController {
     this.notificatorService.callHelp(originDto);
     return;
   }
+
+  @Get('/test')
+  test(): Promise<void> {
+    this.notificatorService.sendNotifications(30, 30, 30, 30, 30);
+    return;
+  }
 }

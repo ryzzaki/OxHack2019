@@ -20,27 +20,43 @@ export class NotificatorService {
       if (person.travelTime > etaInSeconds) {
         break;
       } else {
-        await this.sendNotifications();
+        await this.sendNotifications(originLat, originLong, person.length, person.travelTime, person.id);
       }
     }
-    await this.sendNotifications();
   }
 
-  private async sendNotifications(): Promise<void> {
-    admin.initializeApp({
-      credential: admin.credential.applicationDefault(),
-      databaseURL: 'https://<DATABASE_NAME>.firebaseio.com',
-    });
+  async sendNotifications(originLat: number, originLong: number, length: number, travelTime: number, userId: number): Promise<void> {
+    const serviceAccount = require('../../oxfordhack2019-99a45-firebase-adminsdk-ocfvv-cb67a5d2e6.json');
+
+    if (!admin.apps.length) {
+      admin.initializeApp({
+        credential: admin.credential.cert(serviceAccount),
+        databaseURL: 'https://oxfordhack2019-99a45.firebaseio.com',
+      });
+    }
 
     const registrationTokens = [
-      'YOUR_REGISTRATION_TOKEN_1',
-      'YOUR_REGISTRATION_TOKEN_N',
+      'eDz3vM_Cwuo:APA91bGPJ9dbqndV92eTSmrYXlUrtti_YFxev0oj0epAYBr082pdNl45k2D0c0c2YAiFzl7hvIFVImecxk7JNxskqBAr2KEzQa9LKm97vtBmExpuZ9wzTQLWXQkZeXB7C72sCZgdRQeE',
     ];
 
     const message = {
+      notification: {
+        title: 'EMERGENCY',
+        body: `PERSON IN VICINITY OF ${length} METRES NEEDS YOUR AID!`,
+      },
+      android: {
+        ttl: 3600 * 1000,
+        notification: {
+          //icon: '',
+          color: '#f45342',
+        },
+      },
       data: {
-        score: '850',
-        time: '2:45',
+        longitude: String(originLong),
+        latitude: String(originLat),
+        userId: String(userId),
+        lengthInMeters: String(length),
+        travelTimeInSeconds: String(travelTime),
       },
       tokens: registrationTokens,
     };
@@ -48,7 +64,11 @@ export class NotificatorService {
     admin.messaging().sendMulticast(message)
       .then((response) => {
         console.log(response.successCount + ' messages were sent successfully');
-  });
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log('Error sending message:', error);
+      });
   }
 
   private async calculateDistance(originLat: number, originLong: number): Promise<any> {

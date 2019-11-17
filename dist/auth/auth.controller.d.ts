@@ -5,5 +5,5 @@ export declare class AuthController {
     private readonly authService;
     constructor(authService: AuthService);
     signUp(registerDto: RegisterDto): Promise<void>;
-    loginIn(loginDto: LoginDto): Promise<void>;
+    loginIn(loginDto: LoginDto, res: any): Promise<void>;
 }
