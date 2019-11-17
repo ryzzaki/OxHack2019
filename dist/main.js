@@ -14,6 +14,7 @@ const env_config_1 = require("./config/env.config");
 function bootstrap() {
     return __awaiter(this, void 0, void 0, function* () {
         const app = yield core_1.NestFactory.create(app_module_1.AppModule);
+        app.enableCors();
         yield app.listen(env_config_1.default.serverSettings.port);
     });
 }

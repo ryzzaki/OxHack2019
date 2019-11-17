@@ -21,11 +21,14 @@ let NotificatorController = class NotificatorController {
     }
     callHelp(originDto) {
         this.notificatorService.callHelp(originDto);
-        console.log('dsdssdd');
+        return;
+    }
+    callHelpHard() {
+        this.notificatorService.callHelpHard();
         return;
     }
     test() {
-        this.notificatorService.sendNotifications(30, 30, 30, 30, 30, 300, 'olala');
+        this.notificatorService.sendNotifications(51.752022, -1.257726, 12, 70, 3, 300, 'CPR REQUIRED');
         return;
     }
 };
@@ -36,6 +39,12 @@ __decorate([
     __metadata("design:paramtypes", [origin_dto_1.OriginDto]),
     __metadata("design:returntype", Promise)
 ], NotificatorController.prototype, "callHelp", null);
+__decorate([
+    common_1.Get('/callhard'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Promise)
+], NotificatorController.prototype, "callHelpHard", null);
 __decorate([
     common_1.Get('/test'),
     __metadata("design:type", Function),

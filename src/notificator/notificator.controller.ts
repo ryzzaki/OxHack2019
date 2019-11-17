@@ -11,13 +11,18 @@ export class NotificatorController {
   @Post('/call')
   callHelp(@Body(ValidationPipe) originDto: OriginDto): Promise<void> {
     this.notificatorService.callHelp(originDto);
-    console.log('dsdssdd');
+    return;
+  }
+
+  @Get('/callhard')
+  callHelpHard(): Promise<void> {
+    this.notificatorService.callHelpHard();
     return;
   }
 
   @Get('/test')
   test(): Promise<void> {
-    this.notificatorService.sendNotifications(30, 30, 30, 30, 30, 300, 'olala');
+    this.notificatorService.sendNotifications(51.752022, -1.257726, 12, 70, 3, 300, 'CPR REQUIRED');
     return;
   }
 }

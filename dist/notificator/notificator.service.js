@@ -42,6 +42,21 @@ let NotificatorService = class NotificatorService {
             }
         });
     }
+    callHelpHard() {
+        return __awaiter(this, void 0, void 0, function* () {
+            const etaInSeconds = 6 * 60;
+            const relativeUsers = yield this.calculateDistance(-1.257726, 51.752022);
+            const sorted = relativeUsers.sort((a, b) => (a.travelTime > b.travelTime) ? 1 : ((b.travelTime > a.travelTime) ? -1 : 0));
+            for (const person of sorted) {
+                if (person.travelTime > etaInSeconds) {
+                    break;
+                }
+                else {
+                    yield this.sendNotifications(51.752022, -1.257726, person.length, person.travelTime, person.id, etaInSeconds, 'Something').catch(err => { return; });
+                }
+            }
+        });
+    }
     sendNotifications(originLat, originLong, length, travelTime, userId, ambulanceEta, description) {
         return __awaiter(this, void 0, void 0, function* () {
             const serviceAccount = require('../../oxfordhack2019-99a45-firebase-adminsdk-ocfvv-cb67a5d2e6.json');

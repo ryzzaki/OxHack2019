@@ -4,5 +4,6 @@ export declare class NotificatorController {
     private readonly notificatorService;
     constructor(notificatorService: NotificatorService);
     callHelp(originDto: OriginDto): Promise<void>;
+    callHelpHard(): Promise<void>;
     test(): Promise<void>;
 }
