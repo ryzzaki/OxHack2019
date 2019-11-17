@@ -21,10 +21,11 @@ let NotificatorController = class NotificatorController {
     }
     callHelp(originDto) {
         this.notificatorService.callHelp(originDto);
+        console.log('dsdssdd');
         return;
     }
     test() {
-        this.notificatorService.sendNotifications(30, 30, 30, 30, 30, 300);
+        this.notificatorService.sendNotifications(30, 30, 30, 30, 30, 300, 'olala');
         return;
     }
 };

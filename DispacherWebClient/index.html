@@ -31,6 +31,7 @@
         console.log(lat)
 
         var request = new XMLHttpRequest();
+        console.log(request);
         var url = "http://localhost:3000/api/notificator/call";
         request.open("POST", url, true);
         request.setRequestHeader("Content-Type", "application/json");
@@ -60,7 +61,7 @@
         <div class="col-md-4 inputGroupContainer">
         <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input  id="latitude" name="latitude" placeholder="Latitude" class="form-control"  type="text">
+        <input  id="originLat" name="originLat" placeholder="Latitude" class="form-control"  type="text">
           </div>
         </div>
       </div>
@@ -72,7 +73,7 @@
           <div class="col-md-4 inputGroupContainer">
           <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input id="longitude" name="longitude" placeholder="Longitude" class="form-control"  type="text">
+        <input id="originLong" name="originLong" placeholder="Longitude" class="form-control"  type="text">
           </div>
         </div>
       </div>
@@ -86,7 +87,7 @@
           <div class="col-md-4 inputGroupContainer">
           <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input id="eta" name="eta" placeholder="ETA of Ambulance (Minutes)" class="form-control"  type="text">
+        <input id="ambulanceEta" name="ambulanceEta" placeholder="ETA of Ambulance (Minutes)" class="form-control"  type="text">
           </div>
         </div>
       </div>
@@ -98,7 +99,7 @@
           <div class="col-md-4 inputGroupContainer">
           <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input id="description" name="incidentInfo" placeholder="Brief incident information" class="form-control"  type="text">
+        <input id="description" name="description" placeholder="Brief incident information" class="form-control"  type="text">
           </div>
         </div>
       </div>

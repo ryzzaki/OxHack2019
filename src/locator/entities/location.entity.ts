@@ -12,12 +12,9 @@ export class Location extends BaseEntity {
   @Column()
   userId: number;
 
-  @Column()
+  @Column({ type: 'decimal' })
   latitude: number;
 
-  @Column()
+  @Column({ type: 'decimal' })
   longitude: number;
-
-  @UpdateDateColumn()
-  lastUpdated: Date;
 }

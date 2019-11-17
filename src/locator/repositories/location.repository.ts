@@ -9,6 +9,7 @@ export class LocationRepository extends Repository<Location> {
     location.latitude = latitude;
     location.longitude = longitude;
     location.user = user;
+    location.userId = user.id;
     await this.save(location);
   }
 
@@ -16,7 +17,6 @@ export class LocationRepository extends Repository<Location> {
     const location = await this.findOne({ user });
     location.latitude = latitude;
     location.longitude = longitude;
-    delete location.lastUpdated;
     await this.update(location.id, location);
   }
 

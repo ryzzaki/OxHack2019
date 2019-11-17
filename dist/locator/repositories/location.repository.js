@@ -23,6 +23,7 @@ let LocationRepository = class LocationRepository extends typeorm_1.Repository {
             location.latitude = latitude;
             location.longitude = longitude;
             location.user = user;
+            location.userId = user.id;
             yield this.save(location);
         });
     }
@@ -31,7 +32,6 @@ let LocationRepository = class LocationRepository extends typeorm_1.Repository {
             const location = yield this.findOne({ user });
             location.latitude = latitude;
             location.longitude = longitude;
-            delete location.lastUpdated;
             yield this.update(location.id, location);
         });
     }

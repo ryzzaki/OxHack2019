@@ -6,5 +6,4 @@ export declare class Location extends BaseEntity {
     userId: number;
     latitude: number;
     longitude: number;
-    lastUpdated: Date;
 }

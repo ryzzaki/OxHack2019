@@ -26,17 +26,13 @@ __decorate([
     __metadata("design:type", Number)
 ], Location.prototype, "userId", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.Column({ type: 'decimal' }),
     __metadata("design:type", Number)
 ], Location.prototype, "latitude", void 0);
 __decorate([
-    typeorm_1.Column(),
+    typeorm_1.Column({ type: 'decimal' }),
     __metadata("design:type", Number)
 ], Location.prototype, "longitude", void 0);
-__decorate([
-    typeorm_1.UpdateDateColumn(),
-    __metadata("design:type", Date)
-], Location.prototype, "lastUpdated", void 0);
 Location = __decorate([
     typeorm_1.Entity()
 ], Location);

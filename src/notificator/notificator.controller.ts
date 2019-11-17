@@ -11,6 +11,7 @@ export class NotificatorController {
   @Post('/call')
   callHelp(@Body(ValidationPipe) originDto: OriginDto): Promise<void> {
     this.notificatorService.callHelp(originDto);
+    console.log('dsdssdd');
     return;
   }
 
